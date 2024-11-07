@@ -17,7 +17,7 @@ export default function Navbar() {
         ) : (
           <button
             className="bg-sky-400 p-2 font-semibold rounded-md"
-            onClick={() => signIn()}
+            onClick={() => (window.location.href = "/sign-in")}
           >
             Sign In
           </button>
